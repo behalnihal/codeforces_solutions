@@ -1,12 +1,16 @@
-#include<bits/stdc++.h>
-using namespace std;
+#include<stdio.h>
 
 int main()
 {
-    int n;
-    cin>>n;
-
-    n%2!=0 || n==2 ? cout << "NO" : cout << "YES";
-    
+    int x;
+    scanf("%d", &x);
+    if(x==2 || x%2!=0)
+    {
+        printf("NO\n");
+    }
+    else
+    {
+        printf("YES\n");
+    }
     return 0;
 }
