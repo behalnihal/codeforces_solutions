@@ -18,13 +18,14 @@ int main()
         {
             if(q[i]=='G' && q[i-1]=='B')
             {
-                swap(q[i], q[i-1]);
+                q[i]='B';
+                q[i-1]='G';
                 i++;
             }
         }
     }
     
-    cout << q << '\n';
+    cout << q;
 
     return 0;
 }
