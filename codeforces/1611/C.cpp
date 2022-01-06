@@ -1,29 +1,24 @@
-#include"bits/stdc++.h"
+#include <bits/stdc++.h>
+ 
 using namespace std;
-
-int main()
-{
-	ios_base::sync_with_stdio(false);
-	cin.tie(0);
-    
+ 
+#define forn(i, n) for (int i = 0; i < int(n); i++)
+ 
+int main() {
     int t;
-    cin>>t;
-
-    while(t--)
-    {
+    cin >> t;
+    forn(tt, t) {
         int n;
-        cin>>n;
-
+        cin >> n;
         vector<int> a(n);
-        for(auto &v : a) cin>>v;
-        if(a[0] != n && a[n-1] != n) cout << -1 << '\n';
-        else
-        {
-            reverse(a.begin(), a.end());
-            for(auto &x : a) cout << x << " ";
-            cout << '\n';
+        forn(i, n)
+            cin >> a[i];
+        if (a[0] != n && a[n - 1] != n)
+            cout << -1 << endl;
+        else {
+            for (int i = n - 1; i >= 0; i--)
+                cout << a[i] << " ";
+            cout << endl;
         }
-
     }
-	return 0;
 }
