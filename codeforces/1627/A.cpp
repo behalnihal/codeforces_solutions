@@ -14,35 +14,26 @@ int main()
 	{
 		int n,m,r,c;
 		cin>>n>>m>>r>>c;
-		r--; c--;
+		r--;c--;
 		char a[n][m];
+		bool found = false;
+
 		for(int i=0; i<n; i++){
 			for(int j=0; j<m; j++){
 				cin>>a[i][j];
+				found |= (a[i][j] == 'B');
 			}
 		}
 		bool flag = false;
 
-		bool found = false;
-
-		for(int x = 0; x < n && found == false; x++)
-		{
-    		for(int y = 0; y < m; y++)
-     		{
-       			if(a[x][y] == 'B')
-       			{
-          			found = true;
-          			break; 
-       			}
-     		}
- 		}
 		if(!found) cout << -1 << '\n';
 		else if(a[r][c]=='B') cout << 0 << '\n';
 		else{
+			for(int i=0; i<m; i++){
+				if(a[r][i] == 'B') flag = true;
+			}
 			for(int i=0; i<n; i++){
-				for(int j=0; j<m; j++){
-					if(a[r][j] == 'B' || a[i][c] == 'B') flag = true;
-				}
+				if(a[i][c]== 'B') flag = true;
 			}
 			if(flag == true) cout << 1 << '\n';
 			else cout << 2 << '\n';
