@@ -1,4 +1,20 @@
 {
+  "CF143202227": {
+    "contest_id": 133,
+    "language": "GNU C++17",
+    "path": "codeforces\\133\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "HQ9+",
+    "problem_url": "https://codeforces.com/contest/133/problem/A",
+    "submission_id": "CF143202227",
+    "submission_url": "https://codeforces.com/contest/133/submission/143202227",
+    "tags": [
+      "implementation",
+      "*900"
+    ],
+    "timestamp": "Jan/18/2022 14:25"
+  },
   "CF143229480": {
     "contest_id": 352,
     "language": "GNU C++17",
