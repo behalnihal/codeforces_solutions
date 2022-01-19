@@ -1,4 +1,21 @@
 {
+  "CF143280644": {
+    "contest_id": 34,
+    "language": "GNU C++17",
+    "path": "codeforces\\34\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Sale",
+    "problem_url": "https://codeforces.com/contest/34/problem/B",
+    "submission_id": "CF143280644",
+    "submission_url": "https://codeforces.com/contest/34/submission/143280644",
+    "tags": [
+      "greedy",
+      "sortings",
+      "*900"
+    ],
+    "timestamp": "Jan/19/2022 09:53"
+  },
   "CF143399358": {
     "contest_id": 1627,
     "language": "GNU C++17",
