@@ -14,6 +14,7 @@ typedef long long ll;
 ll expo(ll a,ll b,ll m){a%=m;ll res=1;while(b){if(b&1)res=(a*res)%m;a=(a*a)%m;b>>=1;}return res;}
 const int N = 1e5 + 10;
 
+
 int main()
 {
 	ios::sync_with_stdio(false);
@@ -21,23 +22,17 @@ int main()
 	
 	int n,l;
 	cin >> n >> l;
-
+	
 	vector<int> a(n);
-	rep(i,0,n){
+	for(int i=0; i<n; i++){
 		cin >> a[i];
 	}
 	sort(all(a));
-	// for(auto x : a) cout << x << ' ';
-		// cout << '\n';
-	int maxd = -1;
-	rep(i,0,n-1){
-		if(maxd < (a[i+1] - a[i])){
-			maxd = a[i+1] - a[i];
-		}
+	double ans = 2 * max(a[0], l-a[n-1]);
+	for(int i=0; i<n-1; i++){
+		ans = fmax(ans, a[i+1]-a[i]);
 	}
-	double f = a[0], ld = l - a[n-1];
-	double mx = (double)maxd / 2;
-	double ans = fmax(mx, max(f,ld));
-	printf("%.9f", ans);
+	printf("%.9f", ans * 0.5);
+
 	return 0;
 }
