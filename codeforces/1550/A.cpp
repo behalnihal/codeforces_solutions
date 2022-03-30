@@ -24,19 +24,16 @@ long long binpow(long long a, long long b) {
     return res;
 }
 
+
 void solve()
 {
 	int n;
 	cin >> n;
-	int t = n;
-	int ans = 1 , sum = 1;
-
-	while(sum * ans < n){
-		sum++;
+	int ans = 1;
+	while(binpow(ans,2) < n){
 		ans++;
 	}
-	cout << sum << '\n';
-
+	cout << ans << '\n';
 }
 
 int main()
