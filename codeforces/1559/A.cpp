@@ -23,13 +23,12 @@ void solve()
 {
 	int n;
 	cin >> n;
-	// vector<int> a(n);
+	vector<int> a(n);
 	int x;
 	cin >> x;
 	rep(i,1,n){
-		int a;
-		cin >> a;
-		x = x&a;
+		cin >> a[i];
+		x = x&a[i];
 	}
 	cout << x << '\n';
 }
