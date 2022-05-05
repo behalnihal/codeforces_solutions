@@ -19,36 +19,29 @@ typedef long long ll;
 
 ll expo(ll a,ll b,ll m){a%=m;ll res=1;while(b){if(b&1)res=(a*res)%m;a=(a*a)%m;b>>=1;}return res;}
 ll binpow(ll a,ll b){ll res=1;while(b){if(b&1)res=(res*a);a=(a*a);b>>=1;}return res;}
-ll gcd(ll a,ll b){return (b ? gcd(b, a%b) : a);}
-ll modsub(ll a,ll b,ll m){return ((a%m - b%m) + m)%m;}
-ll modadd(ll a,ll b,ll m){return (a%m + b%m)%m;}
-ll modmult(ll a, ll b, ll m){return ((a%m) * (b%m))%m;}
-
-
-const int M = 1e5 + 10;
-int fact[M];
-
-const int N = 1e7 + 10;
-vector<bool> is_prime(N, true);
-set<ll> tprime;
-
-void sieve(){
-	is_prime[0] = is_prime[1] = false;
-	for(int i = 2; i <= N; i++){
-		if(is_prime[i]){
-			tprime.insert(i * 1ll * i);
-			for(int j = i; j <= N; j += i){
-				is_prime[j] = false;	
+ll gcd(ll a , ll b){return (b ? gcd(b, a%b) : a);}
+#define int int64_t
+int prime[(int)1e6 + 10];
+set<int> tprime;
+void seive(){
+	tprime.insert(4);
+	for(int i = 3; i < 1e6 +1; i+=2){
+		if(prime[i] == 0){
+			tprime.insert(i*i);
+			for(int j = i; j <= 1e6; j+=i){
+				prime[j] = 1;
 			}
 		}
 	}
 }
+
 void solve()
 {
 	int n;
 	cin >> n;
+	seive();
 	rep(i,0,n){
-		ll x;
+		int x;
 		cin >> x;
 		if(tprime.find(x) != tprime.end()){
 			cout << "YES\n";
@@ -57,22 +50,14 @@ void solve()
 	}
 }
 
-int main()
+int32_t main()
 {
-
-    // #ifndef ONLINE_JUDGE
-    // freopen("input.txt", "r", stdin);
-    // freopen("output.txt", "w", stdout);
-    // #endif
-
 	ios_base::sync_with_stdio(false);
 	cin.tie(0);
-
-	sieve();
+	
 	int t = 1;
 	// cin >> t;
 	while(t--){
 		solve();
 	}
-	return 0;
 }
