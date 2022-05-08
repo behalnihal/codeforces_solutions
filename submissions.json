@@ -3351,6 +3351,22 @@
     ],
     "timestamp": "May/02/2022 21:50"
   },
+  "CF156321106": {
+    "contest_id": 1678,
+    "language": "GNU C++17",
+    "path": "codeforces\\1678\\B1.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B1",
+    "problem_name": "Tokitsukaze and Good 01-String (easy version)",
+    "problem_url": "https://codeforces.com/contest/1678/problem/B1",
+    "submission_id": "CF156321106",
+    "submission_url": "https://codeforces.com/contest/1678/submission/156321106",
+    "tags": [
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "May/08/2022 20:45"
+  },
   "CF156420876": {
     "contest_id": 285,
     "language": "GNU C++17",
