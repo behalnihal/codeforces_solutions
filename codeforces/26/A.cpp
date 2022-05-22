@@ -23,32 +23,12 @@ ll gcd(ll a , ll b){return (b ? gcd(b, a%b) : a);}
 ll modsub(ll a , ll b, ll m){return ((a % m - b % m) + m) % m;}
 ll modadd(ll a , ll b, ll m){return (a % m + b % m) % m;}
 
-const int N = 1e7 + 10;
-vector<bool> is_prime(N, true);
-vector<int> lp(N), hp(N);
-
-void sieve(){
-	is_prime[0] = is_prime[1] = false;
-	for(int i = 2; i * i <= N; i++){
-		if(is_prime[i]){
-			lp[i] = hp[i] = i;
-			for(int j = 2 * i; j <= N; j += i){
-				is_prime[j] = false;
-				hp[j] = i;
-				if(lp[j] == 0){
-					lp[j] == i;
-				}
-			}
-		}
-	}
-}
 int almost(int n){
 	set<int> prime_factors;
-	while(n > 1){
-		int prime_f = hp[n];
-		while(n % prime_f == 0){
-			n /= prime_f;
-			prime_factors.insert(prime_f);
+	for(int i = 2; i<=n; i++){
+		while(n % i == 0){
+			prime_factors.insert(i);
+			n /= i;
 		}
 	}
 	return sz(prime_factors);
@@ -76,7 +56,6 @@ int main()
 	ios_base::sync_with_stdio(false);
 	cin.tie(0);
 	
-	sieve();
 	int t = 1;
 	// cin >> t;
 	while(t--){
