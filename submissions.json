@@ -3351,6 +3351,24 @@
     ],
     "timestamp": "May/02/2022 21:50"
   },
+  "CF159009272": {
+    "contest_id": 1691,
+    "language": "GNU C++17",
+    "path": "codeforces\\1691\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Beat The Odds",
+    "problem_url": "https://codeforces.com/contest/1691/problem/A",
+    "submission_id": "CF159009272",
+    "submission_url": "https://codeforces.com/contest/1691/submission/159009272",
+    "tags": [
+      "brute force",
+      "greedy",
+      "math",
+      "*800"
+    ],
+    "timestamp": "May/31/2022 20:23"
+  },
   "CF159391315": {
     "contest_id": 1688,
     "language": "GNU C++17",
