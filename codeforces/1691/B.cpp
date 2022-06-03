@@ -35,24 +35,30 @@ void solve()
 {	
 	int n;
 	cin >> n;
-	vector<int> a(n), p(n);
+	vector<int> a(n);
+	map<int, vector<int> > m;
 	rep(i,0,n){
 		cin >> a[i];
-		p[i] = i + 1;
+		m[a[i]].pb(i);
 	}
-	bool flag = true;
-	int l = 0, r = 0;
-	while(r < n){
-		while(r < n - 1 and a[r] == a[r+1]) r++;
-		if(l == r) flag = false;
-		else rotate(p.begin() + l , p.begin() + r , p.begin() + r + 1);
-		l = r + 1;
-		r++;
+	if(n == 1){
+		cout << "-1\n";
+		return;
 	}
-	if(flag){
-		print(p);
+	vector<int> v;
+	for(auto x : m){
+		if(sz(x.S) == 1){
+			cout << "-1\n";
+			return;
+		}
+		int j = x.S[0];
+		rep(i,1,sz(x.S)){
+			v.pb(x.S[i] + 1);
+		}
+		v.pb(j+1);
 	}
-	else cout << -1 << '\n';
+	for(auto x : v) cout << x << ' ';
+		cout << '\n';
 }
 
 int main()
