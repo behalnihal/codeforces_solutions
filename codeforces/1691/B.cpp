@@ -19,7 +19,6 @@ typedef long long ll;
 #define sz(a) (int)a.size()
 #define min3(a,b,c) min(a, min(b,c))
 #define print(a) for(auto x : a) cout << x << ' '; cout << '\n'
-#define INF 1e18
 
 /**********************************************************************************************/
 
@@ -35,30 +34,26 @@ ll modmult(ll a, ll b, ll m){return ((a%m) * (b%m))%m;}
 void solve()
 {	
 	int n;
-	cin >> n; 
-	vector<int> a(n);
-	map<int, int > m;
+	cin >> n;
+	vector<int> a(n), p(n);
 	rep(i,0,n){
 		cin >> a[i];
-		m[a[i]]++;
+		p[i] = i + 1;
 	}
-	for(auto it : m){
-		if(it.S == 1){
-			cout << "-1\n";
-			return;
-		}
+	bool flag = true;
+	int l = 0, r = 0;
+	while(r < n){
+		while(r < n - 1 and a[r] == a[r+1]) r++;
+		if(l == r) flag = false;
+		else rotate(p.begin() + l , p.begin() + r , p.begin() + r + 1);
+		l = r + 1;
+		r++;
 	}
-	int ind = 1;
-	for(auto it : m){
-		int x = ind + it.S - 1;
-		cout << x << " ";
-		while(ind < x){
-			cout << ind++ << " ";
-		}
-		ind++;
+	if(flag){
+		print(p);
 	}
-	cout << '\n';
-}	
+	else cout << -1 << '\n';
+}
 
 int main()
 {
