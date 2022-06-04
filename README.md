@@ -12,26 +12,27 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
-200 | [B - Little Girl and Game](https://codeforces.com/contest/276/problem/B) | [GNU C++17](./codeforces/276/B.cpp) | `games` `greedy` `*1300` | Jun/17/2022 13:14 | 
-199 | [B - Petya and Staircases](https://codeforces.com/contest/362/problem/B) | [GNU C++17](./codeforces/362/B.cpp) | `implementation` `sortings` `*1100` | Jun/17/2022 13:02 | 
-198 | [B - Paranoid String](https://codeforces.com/contest/1694/problem/B) | [GNU C++17](./codeforces/1694/B.cpp) | `constructive algorithms` `greedy` `*1200` | Jun/16/2022 21:19 | 
-197 | [A - Creep](https://codeforces.com/contest/1694/problem/A) | [GNU C++17](./codeforces/1694/A.cpp) | `greedy` `implementation` `*800` | Jun/16/2022 20:18 | 
-196 | [B - All Distinct](https://codeforces.com/contest/1692/problem/B) | [GNU C++17](./codeforces/1692/B.cpp) | `greedy` `sortings` `*800` | Jun/14/2022 21:24 | 
-195 | [C - Where's the Bishop?](https://codeforces.com/contest/1692/problem/C) | [GNU C++17](./codeforces/1692/C.cpp) | `implementation` `*800` | Jun/14/2022 21:02 | 
-194 | [A - Marathon](https://codeforces.com/contest/1692/problem/A) | [GNU C++17](./codeforces/1692/A.cpp) | `implementation` `*800` | Jun/14/2022 20:08 | 
-193 | [B - Promo](https://codeforces.com/contest/1697/problem/B) | [GNU C++17](./codeforces/1697/B.cpp) | `greedy` `sortings` `*900` | Jun/12/2022 22:01 | 
-192 | [A - Parkway Walk](https://codeforces.com/contest/1697/problem/A) | [GNU C++17](./codeforces/1697/A.cpp) | `greedy` `implementation` `*800` | Jun/12/2022 20:16 | 
-191 | [A - Lex String](https://codeforces.com/contest/1689/problem/A) | [GNU C++17](./codeforces/1689/A.cpp) | `brute force` `greedy` `implementation` `sortings` `two pointers` `*800` | Jun/12/2022 16:06 | 
-190 | [A - cAPS lOCK](https://codeforces.com/contest/131/problem/A) | [GNU C++17](./codeforces/131/A.cpp) | `implementation` `strings` `*1000` | Jun/11/2022 02:51 | 
-189 | [A - Expression](https://codeforces.com/contest/479/problem/A) | [GNU C++17](./codeforces/479/A.cpp) | `brute force` `math` `*1000` | Jun/11/2022 02:29 | 
-188 | [B - Stone Age Problem](https://codeforces.com/contest/1679/problem/B) | [GNU C++17](./codeforces/1679/B.cpp) | `data structures` `implementation` `*1200` | Jun/10/2022 20:49 | 
-187 | [C - Sum of Substrings](https://codeforces.com/contest/1691/problem/C) | [GNU C++17](./codeforces/1691/C.cpp) | `brute force` `constructive algorithms` `greedy` `math` `strings` `*1400` | Jun/10/2022 03:25 | 
-186 | [B - Shoe Shuffling](https://codeforces.com/contest/1691/problem/B) | [GNU C++17](./codeforces/1691/B.cpp) | `constructive algorithms` `greedy` `implementation` `two pointers` `*1000` | Jun/10/2022 00:08 | 
-185 | [E - Price Maximization](https://codeforces.com/contest/1690/problem/E) | [GNU C++17](./codeforces/1690/E.cpp) | `binary search` `greedy` `math` `two pointers` `*1500` | Jun/09/2022 19:53 | 
-184 | [D - Black and White Stripe](https://codeforces.com/contest/1690/problem/D) | [GNU C++17](./codeforces/1690/D.cpp) | `implementation` `two pointers` `*1000` | Jun/09/2022 16:32 | 
-183 | [C - Restoring the Duration of Tasks](https://codeforces.com/contest/1690/problem/C) | [GNU C++17](./codeforces/1690/C.cpp) | `data structures` `greedy` `implementation` `*800` | Jun/08/2022 01:40 | 
-182 | [B - Array Decrements](https://codeforces.com/contest/1690/problem/B) | [GNU C++17](./codeforces/1690/B.cpp) | `greedy` `implementation` `*800` | Jun/08/2022 01:24 | 
-181 | [A - Print a Pedestal (Codeforces logo?)](https://codeforces.com/contest/1690/problem/A) | [GNU C++17](./codeforces/1690/A.cpp) | `constructive algorithms` `greedy` `*800` | Jun/07/2022 20:43 | 
+201 | [B - Little Girl and Game](https://codeforces.com/contest/276/problem/B) | [GNU C++17](./codeforces/276/B.cpp) | `games` `greedy` `*1300` | Jun/17/2022 13:14 | 
+200 | [B - Petya and Staircases](https://codeforces.com/contest/362/problem/B) | [GNU C++17](./codeforces/362/B.cpp) | `implementation` `sortings` `*1100` | Jun/17/2022 13:02 | 
+199 | [B - Paranoid String](https://codeforces.com/contest/1694/problem/B) | [GNU C++17](./codeforces/1694/B.cpp) | `constructive algorithms` `greedy` `*1200` | Jun/16/2022 21:19 | 
+198 | [A - Creep](https://codeforces.com/contest/1694/problem/A) | [GNU C++17](./codeforces/1694/A.cpp) | `greedy` `implementation` `*800` | Jun/16/2022 20:18 | 
+197 | [B - All Distinct](https://codeforces.com/contest/1692/problem/B) | [GNU C++17](./codeforces/1692/B.cpp) | `greedy` `sortings` `*800` | Jun/14/2022 21:24 | 
+196 | [C - Where's the Bishop?](https://codeforces.com/contest/1692/problem/C) | [GNU C++17](./codeforces/1692/C.cpp) | `implementation` `*800` | Jun/14/2022 21:02 | 
+195 | [A - Marathon](https://codeforces.com/contest/1692/problem/A) | [GNU C++17](./codeforces/1692/A.cpp) | `implementation` `*800` | Jun/14/2022 20:08 | 
+194 | [B - Promo](https://codeforces.com/contest/1697/problem/B) | [GNU C++17](./codeforces/1697/B.cpp) | `greedy` `sortings` `*900` | Jun/12/2022 22:01 | 
+193 | [A - Parkway Walk](https://codeforces.com/contest/1697/problem/A) | [GNU C++17](./codeforces/1697/A.cpp) | `greedy` `implementation` `*800` | Jun/12/2022 20:16 | 
+192 | [A - Lex String](https://codeforces.com/contest/1689/problem/A) | [GNU C++17](./codeforces/1689/A.cpp) | `brute force` `greedy` `implementation` `sortings` `two pointers` `*800` | Jun/12/2022 16:06 | 
+191 | [A - cAPS lOCK](https://codeforces.com/contest/131/problem/A) | [GNU C++17](./codeforces/131/A.cpp) | `implementation` `strings` `*1000` | Jun/11/2022 02:51 | 
+190 | [A - Expression](https://codeforces.com/contest/479/problem/A) | [GNU C++17](./codeforces/479/A.cpp) | `brute force` `math` `*1000` | Jun/11/2022 02:29 | 
+189 | [B - Stone Age Problem](https://codeforces.com/contest/1679/problem/B) | [GNU C++17](./codeforces/1679/B.cpp) | `data structures` `implementation` `*1200` | Jun/10/2022 20:49 | 
+188 | [C - Sum of Substrings](https://codeforces.com/contest/1691/problem/C) | [GNU C++17](./codeforces/1691/C.cpp) | `brute force` `constructive algorithms` `greedy` `math` `strings` `*1400` | Jun/10/2022 03:25 | 
+187 | [B - Shoe Shuffling](https://codeforces.com/contest/1691/problem/B) | [GNU C++17](./codeforces/1691/B.cpp) | `constructive algorithms` `greedy` `implementation` `two pointers` `*1000` | Jun/10/2022 00:08 | 
+186 | [E - Price Maximization](https://codeforces.com/contest/1690/problem/E) | [GNU C++17](./codeforces/1690/E.cpp) | `binary search` `greedy` `math` `two pointers` `*1500` | Jun/09/2022 19:53 | 
+185 | [D - Black and White Stripe](https://codeforces.com/contest/1690/problem/D) | [GNU C++17](./codeforces/1690/D.cpp) | `implementation` `two pointers` `*1000` | Jun/09/2022 16:32 | 
+184 | [C - Restoring the Duration of Tasks](https://codeforces.com/contest/1690/problem/C) | [GNU C++17](./codeforces/1690/C.cpp) | `data structures` `greedy` `implementation` `*800` | Jun/08/2022 01:40 | 
+183 | [B - Array Decrements](https://codeforces.com/contest/1690/problem/B) | [GNU C++17](./codeforces/1690/B.cpp) | `greedy` `implementation` `*800` | Jun/08/2022 01:24 | 
+182 | [A - Print a Pedestal (Codeforces logo?)](https://codeforces.com/contest/1690/problem/A) | [GNU C++17](./codeforces/1690/A.cpp) | `constructive algorithms` `greedy` `*800` | Jun/07/2022 20:43 | 
+181 | [B - Patchouli's Magical Talisman](https://codeforces.com/contest/1688/problem/B) | [GNU C++17](./codeforces/1688/B.cpp) | `bitmasks` `constructive algorithms` `greedy` `sortings` `*800` | Jun/05/2022 01:08 | 
 180 | [C - Infinite Replacement](https://codeforces.com/contest/1674/problem/C) | [GNU C++17](./codeforces/1674/C.cpp) | `combinatorics` `implementation` `strings` | May/02/2022 21:50 | 
 179 | [D - A-B-C Sort](https://codeforces.com/contest/1674/problem/D) | [GNU C++17](./codeforces/1674/D.cpp) | `constructive algorithms` `implementation` `sortings` | May/02/2022 21:20 | 
 178 | [B - Dictionary](https://codeforces.com/contest/1674/problem/B) | [GNU C++17](./codeforces/1674/B.cpp) | `combinatorics` `math` | May/02/2022 20:49 | 
