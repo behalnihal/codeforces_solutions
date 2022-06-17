@@ -38,13 +38,13 @@ void solve()
 {
 	string s;
 	cin >> s;
-	int freq[26] = {0};
-	int odd_chars = 0;
+	unordered_map<char,int> m;
 	for(char ch : s){
-		freq[ch - 'a']++;
+		m[ch]++;
 	}
-	rep(i,0,26){
-		if(freq[i]&1) odd_chars++;
+	int odd_chars = 0;
+	for(auto x : m){
+		if(x.S&1) odd_chars++;
 	}
 	if(odd_chars&1 or odd_chars == 0) cout <<"First\n";
 	else cout << "Second\n";
