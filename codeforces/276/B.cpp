@@ -38,7 +38,7 @@ void solve()
 {
 	string s;
 	cin >> s;
-	unordered_map<char,int> m;
+	map<char, int> m;
 	for(char ch : s){
 		m[ch]++;
 	}
